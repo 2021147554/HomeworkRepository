@@ -1,0 +1,10 @@
+#middle{max-width:1020px; margin:0 auto; background-color:aqua;}
+h1 {color: gold; }
+.move{
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{ from{margin-left:0%;}
+                to{margin-left:80%;}
+}
